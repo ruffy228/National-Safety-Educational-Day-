@@ -504,9 +504,6 @@
         }
 
         // 監聽所有輸入變化
-        document.getElementById('name').addEventListener('input', checkAllAnswered);
-        document.getElementById('class').addEventListener('input', checkAllAnswered);
-        document.getElementById('studentId').addEventListener('input', checkAllAnswered);
         radioButtons.forEach(radio => {
             radio.addEventListener('change', checkAllAnswered);
         });
